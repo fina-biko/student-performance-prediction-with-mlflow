@@ -1,0 +1,8 @@
+artifacts_root=artifacts
+data_ingestion:
+parent_folder: artifacts/data_ingestion
+inner_folder: artifacts/data_ingestion/data
+csv_path: C:\Users\User\Downloads\PROJECTS\END TO END ML\notebook\data
+filename: artifacts/data_ingestion/data/student.csv
+
+

@@ -1,0 +1,7 @@
+pandas
+yaml
+os
+sys
+
+
+-e .

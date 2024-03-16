@@ -1,0 +1,16 @@
+artifact_uri: file:///c:/Users/User/Downloads/PROJECTS/student-performance-prediction-with-mlflow/mlruns/0/d017a95105664301b12ae0c964acb4da/artifacts
+deleted_time: 1706005712723
+end_time: 1706004181935
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: d017a95105664301b12ae0c964acb4da
+run_name: kindly-wren-513
+run_uuid: d017a95105664301b12ae0c964acb4da
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706004181766
+status: 4
+tags: []
+user_id: User

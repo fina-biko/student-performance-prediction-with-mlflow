@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/User/Downloads/PROJECTS/student-performance-prediction-with-mlflow/mlruns/0/00809c147472435d9be1c5bf97e44063/artifacts
+end_time: 1706003613039
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 00809c147472435d9be1c5bf97e44063
+run_name: enthused-deer-705
+run_uuid: 00809c147472435d9be1c5bf97e44063
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706003606094
+status: 3
+tags: []
+user_id: User

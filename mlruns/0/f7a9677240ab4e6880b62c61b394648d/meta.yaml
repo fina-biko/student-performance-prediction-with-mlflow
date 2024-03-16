@@ -1,0 +1,16 @@
+artifact_uri: file:///c:/Users/User/Downloads/PROJECTS/student-performance-prediction-with-mlflow/mlruns/0/f7a9677240ab4e6880b62c61b394648d/artifacts
+deleted_time: 1706005712752
+end_time: 1706002770267
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: f7a9677240ab4e6880b62c61b394648d
+run_name: languid-whale-546
+run_uuid: f7a9677240ab4e6880b62c61b394648d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706002770137
+status: 4
+tags: []
+user_id: User

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/User/Downloads/PROJECTS/student-performance-prediction-with-mlflow/mlruns/0/e782cbf4b7424178abe9e53bcc5e6413/artifacts
+end_time: 1706009300429
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e782cbf4b7424178abe9e53bcc5e6413
+run_name: brawny-crow-763
+run_uuid: e782cbf4b7424178abe9e53bcc5e6413
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706009293470
+status: 3
+tags: []
+user_id: User

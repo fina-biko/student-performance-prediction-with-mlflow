@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/User/Downloads/PROJECTS/student-performance-prediction-with-mlflow/mlruns/0/acc955aa6870412db0efdf4ca4b67153/artifacts
+end_time: 1706010573801
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: acc955aa6870412db0efdf4ca4b67153
+run_name: tasteful-shad-725
+run_uuid: acc955aa6870412db0efdf4ca4b67153
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706010568284
+status: 3
+tags: []
+user_id: User

@@ -1,0 +1,14 @@
+{
+ "argv": [
+  "c:/Users/User/Downloads/PROJECTS/student-performance-prediction-with-mlflow/studenv\\python.exe",
+  "-m",
+  "ipykernel_launcher",
+  "-f",
+  "{connection_file}"
+ ],
+ "display_name": "Python 3 (ipykernel)",
+ "language": "python",
+ "metadata": {
+  "debugger": true
+ }
+}

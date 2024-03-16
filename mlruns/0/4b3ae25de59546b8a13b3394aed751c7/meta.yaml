@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/User/Downloads/PROJECTS/student-performance-prediction-with-mlflow/mlruns/0/4b3ae25de59546b8a13b3394aed751c7/artifacts
+end_time: 1706005673992
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4b3ae25de59546b8a13b3394aed751c7
+run_name: kindly-pug-753
+run_uuid: 4b3ae25de59546b8a13b3394aed751c7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706005667070
+status: 3
+tags: []
+user_id: User

@@ -1,0 +1,19 @@
+artifact_path: model_AdaBoost Regressor
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.3.2
+mlflow_version: 2.2.2
+model_uuid: de7ec07e9f3d4c1092b6296373eb7d86
+run_id: 8b89f64804dc40b0a24366c0a9fa699a
+utc_time_created: '2024-01-23 11:57:23.859502'

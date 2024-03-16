@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/User/Downloads/PROJECTS/student-performance-prediction-with-mlflow/mlruns/0/164a3c6b54f24b8783f9732639fc429e/artifacts
+end_time: 1706009922054
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 164a3c6b54f24b8783f9732639fc429e
+run_name: learned-shrew-888
+run_uuid: 164a3c6b54f24b8783f9732639fc429e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706009915618
+status: 3
+tags: []
+user_id: User

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/User/Downloads/PROJECTS/student-performance-prediction-with-mlflow/mlruns/0/1ce60e00b9e54db88dcd9b39a8e28a29/artifacts
+end_time: 1706009949263
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1ce60e00b9e54db88dcd9b39a8e28a29
+run_name: gregarious-fly-705
+run_uuid: 1ce60e00b9e54db88dcd9b39a8e28a29
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706009940699
+status: 3
+tags: []
+user_id: User

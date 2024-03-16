@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/User/Downloads/PROJECTS/student-performance-prediction-with-mlflow/mlruns/0/dd1129ccb29940c1a02a7c52cb30af6f/artifacts
+end_time: 1706008765861
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dd1129ccb29940c1a02a7c52cb30af6f
+run_name: nimble-flea-622
+run_uuid: dd1129ccb29940c1a02a7c52cb30af6f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706008759313
+status: 3
+tags: []
+user_id: User

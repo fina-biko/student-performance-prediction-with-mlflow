@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/User/Downloads/PROJECTS/student-performance-prediction-with-mlflow/mlruns/0/564603de206647fd85a6e167428b55dd/artifacts
+end_time: 1706009904768
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 564603de206647fd85a6e167428b55dd
+run_name: classy-moth-509
+run_uuid: 564603de206647fd85a6e167428b55dd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706009896288
+status: 3
+tags: []
+user_id: User

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/User/Downloads/PROJECTS/student-performance-prediction-with-mlflow/mlruns/0/3f0e46ebfd8e47ef9ad13153add50e1b/artifacts
+end_time: 1706003630804
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3f0e46ebfd8e47ef9ad13153add50e1b
+run_name: dapper-pig-540
+run_uuid: 3f0e46ebfd8e47ef9ad13153add50e1b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706003623841
+status: 3
+tags: []
+user_id: User

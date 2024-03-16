@@ -1,23 +1,27 @@
-from setuptools import setup,find_packages
-import os
-from typing import list
+from setuptools import find_packages,setup
 
-HYPHEN_e_dot='e .'
-def requirements(filename)-> list[str]:
+
+HYPEN_E_DOT='-e .'
+def get_requirements(file_path:str)->list:
+    '''
+    this function will return the list of requirements
+    '''
     requirements=[]
-    with open (filename) as fileobj:
-        requirements=fileobj.readlines()
-        requirements=[line.replace('/n','')for line in requirements]
-        if HYPHEN_e_dot in requirements:
-            requirements.remove(HYPHEN_e_dot)
-        return requirements
-         
+    with open(file_path) as file_obj:
+        requirements=file_obj.readlines()
+        requirements=[req.replace("\n","") for req in requirements]
+        '''
+        if HYPEN_E_DOT in requirements:
+            requirements.remove(HYPEN_E_DOT)'''
+    
+    return requirements
 
-    
 setup(
-    name='RUFINA ATIENO',
-    author='KRISH NAIK',
-    packages=find_packages(),
-    requires=requirements(requirements.txt)
+name='sparks project',
+version='0.0.1',
+author='Fina',
+author_email='finarheiner.com',
+packages=find_packages(),
+install_requires=get_requirements('requirements.txt')
+
 )
-    

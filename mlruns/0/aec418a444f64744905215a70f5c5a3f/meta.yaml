@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/User/Downloads/PROJECTS/student-performance-prediction-with-mlflow/mlruns/0/aec418a444f64744905215a70f5c5a3f/artifacts
+end_time: 1706004289950
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: aec418a444f64744905215a70f5c5a3f
+run_name: lyrical-shrew-955
+run_uuid: aec418a444f64744905215a70f5c5a3f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706004282461
+status: 3
+tags: []
+user_id: User

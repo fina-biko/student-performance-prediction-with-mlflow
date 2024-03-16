@@ -30,7 +30,7 @@ list_of_files=[
     "main.py",
     "schema.yaml",
     "params.yaml",
-    "config.yaml",
+    "config/config.yaml",
     "requirements.txt",
     "setup.py",
     "app.py",
@@ -62,6 +62,8 @@ for filepath in list_of_files:
     if not os.path.exists(full_filepath):
         with open(full_filepath, 'w'):
             pass   
+
+    
 
 
 

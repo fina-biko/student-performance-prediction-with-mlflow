@@ -1,0 +1,19 @@
+artifact_path: model_DecisionTree
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.3.2
+mlflow_version: 2.2.2
+model_uuid: b30cfafde24348989bebb53abe4d07cb
+run_id: 5c5dc34a48614addba4a90afc6836207
+utc_time_created: '2024-01-23 12:04:18.361607'

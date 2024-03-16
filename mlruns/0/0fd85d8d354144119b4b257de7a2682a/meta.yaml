@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/User/Downloads/PROJECTS/student-performance-prediction-with-mlflow/mlruns/0/0fd85d8d354144119b4b257de7a2682a/artifacts
+end_time: 1706009278111
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0fd85d8d354144119b4b257de7a2682a
+run_name: carefree-shrimp-74
+run_uuid: 0fd85d8d354144119b4b257de7a2682a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706009270602
+status: 3
+tags: []
+user_id: User

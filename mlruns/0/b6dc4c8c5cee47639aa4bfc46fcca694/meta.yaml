@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/User/Downloads/PROJECTS/student-performance-prediction-with-mlflow/mlruns/0/b6dc4c8c5cee47639aa4bfc46fcca694/artifacts
+end_time: 1706006718183
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b6dc4c8c5cee47639aa4bfc46fcca694
+run_name: magnificent-roo-699
+run_uuid: b6dc4c8c5cee47639aa4bfc46fcca694
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706006711024
+status: 3
+tags: []
+user_id: User

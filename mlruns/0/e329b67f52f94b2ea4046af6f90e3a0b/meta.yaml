@@ -1,0 +1,16 @@
+artifact_uri: file:///c:/Users/User/Downloads/PROJECTS/student-performance-prediction-with-mlflow/mlruns/0/e329b67f52f94b2ea4046af6f90e3a0b/artifacts
+deleted_time: 1706005712720
+end_time: 1706004157662
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: e329b67f52f94b2ea4046af6f90e3a0b
+run_name: bemused-shrike-542
+run_uuid: e329b67f52f94b2ea4046af6f90e3a0b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706004157561
+status: 4
+tags: []
+user_id: User

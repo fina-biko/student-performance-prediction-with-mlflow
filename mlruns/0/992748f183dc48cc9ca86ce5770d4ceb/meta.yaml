@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/User/Downloads/PROJECTS/student-performance-prediction-with-mlflow/mlruns/0/992748f183dc48cc9ca86ce5770d4ceb/artifacts
+end_time: 1706008720587
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 992748f183dc48cc9ca86ce5770d4ceb
+run_name: casual-gull-972
+run_uuid: 992748f183dc48cc9ca86ce5770d4ceb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706008712090
+status: 3
+tags: []
+user_id: User

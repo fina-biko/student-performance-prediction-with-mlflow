@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/User/Downloads/PROJECTS/student-performance-prediction-with-mlflow/mlruns/0/d6107dfbdeb140a2a1e6c037d04f30d3/artifacts
+end_time: 1706009493698
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d6107dfbdeb140a2a1e6c037d04f30d3
+run_name: exultant-gull-165
+run_uuid: d6107dfbdeb140a2a1e6c037d04f30d3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706009487065
+status: 3
+tags: []
+user_id: User

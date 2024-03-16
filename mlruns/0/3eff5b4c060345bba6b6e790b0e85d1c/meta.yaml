@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/User/Downloads/PROJECTS/student-performance-prediction-with-mlflow/mlruns/0/3eff5b4c060345bba6b6e790b0e85d1c/artifacts
+end_time: 1706008549485
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3eff5b4c060345bba6b6e790b0e85d1c
+run_name: flawless-conch-293
+run_uuid: 3eff5b4c060345bba6b6e790b0e85d1c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706008542203
+status: 3
+tags: []
+user_id: User

@@ -1,0 +1,16 @@
+artifact_uri: file:///c:/Users/User/Downloads/PROJECTS/student-performance-prediction-with-mlflow/mlruns/0/483c8ba836574ae9a2ebe4e0502c7dd3/artifacts
+deleted_time: 1706005712711
+end_time: 1706004152449
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 483c8ba836574ae9a2ebe4e0502c7dd3
+run_name: calm-gull-904
+run_uuid: 483c8ba836574ae9a2ebe4e0502c7dd3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706004152233
+status: 4
+tags: []
+user_id: User

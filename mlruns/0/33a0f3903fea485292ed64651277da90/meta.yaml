@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/User/Downloads/PROJECTS/student-performance-prediction-with-mlflow/mlruns/0/33a0f3903fea485292ed64651277da90/artifacts
+end_time: 1706006698349
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 33a0f3903fea485292ed64651277da90
+run_name: marvelous-ray-228
+run_uuid: 33a0f3903fea485292ed64651277da90
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706006688311
+status: 3
+tags: []
+user_id: User

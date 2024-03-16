@@ -1,0 +1,140 @@
+###dict_items([('RandomForest', 'RandomForestRegressor()'), ('Decision Tree', 'DecisionTreeRegressor()'), ('year', 1964)])
+...................................................................................................................
+for model_name, model in models.items():  
+    if model_name in hyperparameters:
+        param_grid = hyperparameters[model_name]
+
+        grid_search = GridSearchCV(model, param_grid, cv=5, scoring='neg_mean_squared_error', n_jobs=-1)
+        grid_search.fit(X_train, y_train)
+
+        best_params = grid_search.best_params_
+        best_model = grid_search.best_estimator_   
+        '''In scikit-learn, once you have the best model obtained from GridSearchCV, you can directly use it for predictions on new data without refitting it. The best model obtained from grid_search.best_estimator_ already incorporates the best hyperparameters, and it has been fitted to the training data during the hyperparameter tuning process. Therefore,
+         theres no need to refit it unless you want to train it further on additional data.The best model obtained from 
+         'grid_search.best_estimator_' already incorporates the best hyperparameters, and it has been fitted to the training
+          data during the hyperparameter tuning process. Therefore,
+          theres no need to refit it unless you want to train it further on additional data.
+          
+          On the other hand, when you manually update the hyperparameters of the original model using
+           'model.set_params(**gs.best_params_)', as in the second code method, you are essentially configuring the model with 
+           the best hyperparameters, and there is no need to call fit again unless you want to train the model further
+           so we can do the predict instead as shown below
+
+           'Using the original model with updated hyperparameters for predictions is as follows:'
+            gs = GridSearchCV(estimator=model, param_grid=hyperparameter, cv=5)
+            gs.fit(X=x_train, y=y_train)
+
+            # Setting the best hyperparameters on the original model
+            model.set_params(**gs.best_params_) 
+
+            # No need to call fit again unless you want to train further or  using different dataset ,therefore we predict
+            y_pred = model.predict(X_new)
+            .'''
+            
+by original model you mean the default values of the hyperparameters right?
+
+'''ChatGPT'''
+'Yes, when I refer to the original model, I mean the model with its default hyperparameter values or any initial 
+configuration before hyperparameter tuning. The original model is the one you started with before searching over a 
+hyperparameter space to find the best combination of hyperparameters using techniques like grid search or random 
+search.
+
+Retaining the original model means keeping an instance of the model with its default or initial hyperparameter 
+values, allowing you to compare it with models tuned using different hyperparameter configurations. This can be 
+useful for understanding how the model''s performance changes with different settings or for conducting experiments
+ to identify the impact of hyperparameter changes on model behavior.'''
+
+        y_pred = best_model.predict(X_new)#
+
+        # Log the results to MLflow
+        with mlflow.start_run():
+            mlflow.log_param("model_name", model_name)
+            mlflow.log_params(best_params)
+
+            mlflow.sklearn.log_model(best_model, "model")
+
+..................................................................................................................
+'''If your goal is to log all models best hyperparameters to MLflow UI and you dont plan to use the specific trained
+ model with the best hyperparameters later in the code, you can skip the lines:'''
+        #model.set_params(**gs.best_params_)
+        #model.fit(x_train, y_train)  
+        #  these 2 recall are just like 
+       
+       
+
+        for i in range(len(list(self.models))):
+            model_name = list(self.models.keys())[i]
+            model = list(self.models.values())[i]
+            hyperparameter = self.hyperparameter[model_name]
+
+            gs = GridSearchCV(estimator=model, param_grid=hyperparameter, cv=5,scoring='r2')
+            gs.fit(X=x_train, y=y_train)
+            #model.set_params(**gs.best_params_) this model.set_params has subsituted the bes_model in above code.model is like best estimator and set params like best-params
+           # model.fit(x_train, y_train)
+
+        # Log best hyperparameters to MLflow
+            with mlflow.start_run():
+            mlflow.log_param("model_name", model_name)# Log the model name
+            mlflow.log_params(gs.best_params_) #Log the best hyperparameters
+            mlflow.log_metric("r2_score", gs.best_score_)
+r2_score option 1 '''if you have already specified scoring='r2' in the creation of GridSearchCV, and gs.best_score_ is
+             reporting the R-squared score, there''s no need to calculate it separately on the test set.'''
+            mlflow.sklearn.log_model("model",model)  # Log the model instance itself
+
+ r2_score option 2'''If you want to specifically log the R-squared score and you haven''t specified the scoring parameter to be 
+    "r2" during the creation of GridSearchCV, you should modify the code to calculate the R-squared score separately 
+    on the test set after training the model. Here''s an example:'''
+
+mlflow.log_params(gs.best_params_):
+
+'This line logs multiple parameters at once. The log_params function takes a dictionary (gs.best_params_ in this case) where keys are parameter names, and values are their corresponding values. This is convenient when you want to log a set of hyperparameters together. In your code, it logs the best hyperparameters found during the grid search'.
+
+
+ from sklearn.metrics import r2_score
+
+for i in range(len(list(self.models))):
+    model_name = list(self.models.keys())[i]
+    model = list(self.models.values())[i]
+    hyperparameter = self.hyperparameter[model_name]
+
+    gs = GridSearchCV(estimator=model, param_grid=hyperparameter, cv=5)
+    gs.fit(X=x_train, y=y_train)
+
+    # Use the best model for predictions on the test set
+    y_pred = gs.best_estimator_.predict(x_test)
+
+    # Calculate the R-squared score on the test set
+    r2_test = r2_score(y_test, y_pred)
+
+    # Log best hyperparameters and test set R-squared score to MLflow
+    with mlflow.start_run():
+        mlflow.log_param("model_name", model_name)
+        mlflow.log_params(gs.best_params_)
+        mlflow.log_metric("r2_score", r2_test)
+
+        # Log the best model
+        mlflow.sklearn.log_model(gs.best_estimator_, "model_" + model_name) or mlflow.sklearn.log_model(model, "model_" + model_name)
+ 
+''quiz:after finding the best model from the mlflow ui,will i be required to get rid of the code  logging to mlflow
+ so that i can fit and predict using the specific best model?'''
+ChatGPT
+No, you dont necessarily need to get rid of the code logging to MLflow even if you find the best model from the 
+MLflow UI. from the last code which is mlflow.sklearn.log_model '''
+
+            # Load the best run
+            best_run_id = 'ce39146cf330420baa0ad13226906e7a'
+            best_run = mlflow.search_runs(run_id=best_run_id).iloc[0]
+
+            # Get hyperparameters from the best run
+            best_hyperparameters = best_run["params"]
+
+            # Create a new instance of the model with the best hyperparameters
+            best_model = YourModel(**best_hyperparameters)
+
+            # Continue with your prediction or other tasks
+            x_new = ...
+
+            predicted = best_model.predict(x_new)
+................................................................................................................................
+
+

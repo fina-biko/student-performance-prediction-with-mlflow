@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/User/Downloads/PROJECTS/student-performance-prediction-with-mlflow/mlruns/0/08553b715f73448e8d2ea1e37890ec0a/artifacts
+end_time: 1706003592361
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 08553b715f73448e8d2ea1e37890ec0a
+run_name: able-hog-210
+run_uuid: 08553b715f73448e8d2ea1e37890ec0a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706003582208
+status: 3
+tags: []
+user_id: User

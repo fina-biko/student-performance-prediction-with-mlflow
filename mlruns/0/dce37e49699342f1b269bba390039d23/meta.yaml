@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/User/Downloads/PROJECTS/student-performance-prediction-with-mlflow/mlruns/0/dce37e49699342f1b269bba390039d23/artifacts
+end_time: 1706004268211
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dce37e49699342f1b269bba390039d23
+run_name: upset-cat-26
+run_uuid: dce37e49699342f1b269bba390039d23
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706004261220
+status: 3
+tags: []
+user_id: User

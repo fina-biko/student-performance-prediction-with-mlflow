@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/User/Downloads/PROJECTS/student-performance-prediction-with-mlflow/mlruns/0/3f9adf4d8bb84ebcb4b1d34a45cb9f22/artifacts
+end_time: 1706013226866
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3f9adf4d8bb84ebcb4b1d34a45cb9f22
+run_name: tired_3
+run_uuid: 3f9adf4d8bb84ebcb4b1d34a45cb9f22
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706013220051
+status: 3
+tags: []
+user_id: User

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/User/Downloads/PROJECTS/student-performance-prediction-with-mlflow/mlruns/0/a48058a267c541d5a9fce7464a6f6537/artifacts
+end_time: 1706010557476
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a48058a267c541d5a9fce7464a6f6537
+run_name: calm-conch-705
+run_uuid: a48058a267c541d5a9fce7464a6f6537
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706010551144
+status: 3
+tags: []
+user_id: User
